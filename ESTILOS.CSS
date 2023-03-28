@@ -1,6 +1,7 @@
 *{
 	margin: 0;
 	padding: 0;
+    font-family: sans-serif;
 }
 .desplegable{
   justify-content: center;
@@ -122,6 +123,8 @@ ul .white {
     border-bottom:1px solid #bbb;
     border-radius:0 0 5px 5px;
     background: linear-gradient(top, #eee 0%,#fff 100%);
+    text-align: center;
+    
 }
 
 ul .white:active {
@@ -136,6 +139,8 @@ ul .white:active {
     border:1px solid #000;
     border-radius:0 0 3px 3px;
     background:linear-gradient(45deg, #222 0%,#555 100%);
+    text-align: center;
+    color: white;
 }
 
 .black:active {
