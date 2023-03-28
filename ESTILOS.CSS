@@ -210,3 +210,100 @@ ul li:last-child { border-radius:0 5px 5px 5px; }
 
 
 
+
+/*--------------------BATERÍA--------------------*/
+.cabezera{
+	display: flex;
+}
+
+.cabezera a {
+	text-decoration: none;
+	color: white;
+}
+.tituloBateria {
+	padding-left: 30%;
+}
+
+.divbateria{
+	height: 70vh;
+}
+
+.leyenda{
+	height: 22vh;
+}
+.divbateria, .leyenda{
+	background-color: #9E6721;
+	border-radius: 20px;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.divplatillos, .divtom, .snarekick{
+	display: flex;
+	justify-content: center;
+	height: 30%;
+	width: 90%;
+	margin: 0 auto;	
+}
+
+.divplatillos p, .divtom p, .snarekick p{ 
+	padding-top: 30%;
+	text-align: center;
+}
+.divplatillos{
+	padding-top: 2%;
+}
+
+
+.divtom {
+	
+}
+
+.tom {
+	background-image: url('images/tompng.png');
+	min-width: 200px;
+	background-repeat: no-repeat;
+}
+
+.snarekick{
+	width: 55%;
+	margin: 0 auto;
+
+}
+
+
+.platillos {
+	min-width: 200px;
+	background-image: url('images/hihatpng.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.snare{
+	background-image: url('images/snarepng.png');
+	width: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.kick{
+	background-image: url('images/kickpng.png');
+	width: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	
+}
+
+.tituloLeyenda{
+	text-align: center;
+}
+
+.leyenda{
+	width: 1080px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
+
