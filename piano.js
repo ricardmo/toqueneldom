@@ -10,7 +10,7 @@ function jsNota(note) {
 }
 
 document.addEventListener("keydown", function(event) {
-  let note = document.querySelector(`[data-key="${event.keyCode}"]`);
+  let note = document.querySelector(`[data-key="${event.keyCode}"]`);       //NO FUNCIONA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//
   if (note) {
     jsNota(note);
   }
