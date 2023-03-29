@@ -3,6 +3,21 @@
 	padding: 0;
     font-family: sans-serif;
 }
+.atras{
+	background-color: #160801;
+width: 7%;
+height: 2.5rem;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-left: 20%;
+}
+.atras a{
+text-decoration: none;
+color: white;
+}
+
+
 .desplegable{
   justify-content: center;
   align-items: center;
@@ -156,20 +171,6 @@ height: 20vh;
 /* Piano CSS Carlos*/
 
 * { box-sizing:border-box; }
-.atras{
-	background-color: #160801;
-width: 7%;
-height: 2.5rem;
-display: flex;
-justify-content: center;
-align-items: center;
-margin-left: 20%;
-}
-
-.atras a{
-text-decoration: none;
-color: white;
-}
 
 ul {
     height:18.875em; width:34em;
@@ -315,96 +316,96 @@ ul .white:active {
 }
 
 
-/*paola-marimba*/
+/*marimba*/
 .pagMarimba{
-	background-color: darkgrey;
+	background-color: #9E6721;
 }
 .tituloMarimba{
-	color: white;
+	color: black;
 	font-size: 50px;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 }
 
-
 .marimba{
-width: 80%;
-display: flex;
-justify-content: center;
-align-items: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-right: 10%;
 
 }
+
 .tecla1{
 	width: 5%;
 	height: 20vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
 .tecla2{
 	width: 5%;
 	height: 25vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 	
 }
 .tecla3{
 	width: 5%;
 	height: 30vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
 .tecla4{
 	width: 5%;
 	height: 35vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
 .tecla5{
 	width: 5%;
 	height: 40vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
 .tecla6{
 	width: 5%;
 	height: 45vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
 .tecla7{
 	width: 5%;
 	height: 50vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
 .tecla8{
 	width: 5%;
 	height: 55vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
 .tecla9{
 	width: 5%;
 	height: 60vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
 .tecla10{
 	width: 5%;
 	height: 65vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
 .tecla11{
 	width: 5%;
 	height: 70vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
 .tecla12{
 	width: 5%;
 	height: 75vh;
 	background-color: #eed09d;
-	border: 10px outset #9E6721;
+	border: 5px outset #db8a50;
 }
