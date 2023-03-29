@@ -9,6 +9,17 @@ function jsNota(note) {
   playSound(note.dataset.note);
 }
 
+document.addEventListener('keypress', (e) => {
+
+  if(e.key === 'a'){
+
+
+    nota1.play()
+  }
+    
+})
+
+
 document.addEventListener("keydown", function(event) {
   let note = document.querySelector(`[data-key="${event.keyCode}"]`);       //NO FUNCIONA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//
   if (note) {
