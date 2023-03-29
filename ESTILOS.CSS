@@ -51,3 +51,97 @@ justify-content: center;
 
 
 
+
+
+/*paola-marimba*/
+.pagMarimba{
+	background-color: darkgrey;
+	
+}
+.tituloMarimba{
+	color: white;
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+.marimba{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.tecla1{
+	width: 5%;
+	height: 20vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+.tecla2{
+	width: 5%;
+	height: 25vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+	
+}
+.tecla3{
+	width: 5%;
+	height: 30vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+.tecla4{
+	width: 5%;
+	height: 35vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+.tecla5{
+	width: 5%;
+	height: 40vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+.tecla6{
+	width: 5%;
+	height: 45vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+.tecla7{
+	width: 5%;
+	height: 50vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+.tecla8{
+	width: 5%;
+	height: 55vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+.tecla9{
+	width: 5%;
+	height: 60vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+.tecla10{
+	width: 5%;
+	height: 65vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+.tecla11{
+	width: 5%;
+	height: 70vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+.tecla12{
+	width: 5%;
+	height: 75vh;
+	background-color: #eed09d;
+	border: 10px outset #9E6721;
+}
+
