@@ -1,47 +1,151 @@
+*{
+	margin: 0;
+	padding: 0;
+    font-family: sans-serif;
+}
 .desplegable{
   justify-content: center;
   align-items: center;
   display: flex;
-  flex-direction: column;
-}
-body{
-	background-color: darkgrey;
+  flex-direction: row;
+  width: 100%;
+  height: 15vh;
+  background-color: white;
 }
 
+body{
+	background-color: #914226;
+	
+}
+.btn-escuela{
+	padding: 10px 20px;
+	background-color: #000000;
+	color: #fff;
+	border: none;
+	border-radius: 15px;
+	font-size: 18px;
+	margin-inline-start: 1.5rem;
+	margin-inline-end: 1.5rem;
+	cursor: pointer;
+}
+.desplegable-content a{
+	margin-inline-start: 0.5rem;
+	margin-inline-end: 0.5rem;
+}
+.instrumentos-caja{
+	margin-bottom: 5rem;
+}
+
+
+.caja-titulo{
+	display: flex;
+	justify-content: center;
+}
 .titulo{
+display: flex;
+width: 90%;
+height: 40vh;
+background-color: 914226;
 justify-content: center;
 align-items: center;
+}
+
+.texto-titulo{
+	justify-content: center;
+align-items: center;
+text-align: center;
 }
 
 .desplegable-content{
     margin: 0;
 	cursor: pointer;
     display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	align-items: center;
 }
+.desplegable-content a{
+	text-decoration: none;
+	color: #000000;
+	font-size: 18px;
+}
+.titulo h1{
+	font-size: 50px;
+}
 
-button {
+.btn {
 	margin: 10px;
-	padding: 10px 20px;
+	padding: 30px 30px;
 	background-color: #4CAF50;
 	color: #fff;
 	border: none;
-	border-radius: 4px;
-	font-size: 16px;
+	border-radius: 50%;
+	font-size: 12px;
 	cursor: pointer;
+	margin-bottom: 1vh;
 }
 
 .titulo{
     text-align: center;
+}
 
+.texto-titulo{
+font-size: 75px;
+margin-top: 7vh;
+
+
+}
+.padre-instrumentos{
+	flex-direction:row ;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
 
 .instrumentos-caja{
 flex-direction: row;
 display: flex;
 justify-content: center;
+align-items: center;
+width: 75%;
+height: 20vh;
+}
 
+.instrumentos-caja p{
+	font-size: 18px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+}
+
+.pieDePagina{
+	width: 100%;
+	height: 20vh;
+	background-color: #444;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	margin-top: 5vh;
+}
+
+.redes-sociales{
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;	
+}
+
+.instrumentos-caja iconify-icon{
+	font-size: 3rem;
+}
+.redes-sociales iconify-icon{
+	font-size: 30px;
+}
+
+.caja-footer{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 
@@ -49,9 +153,159 @@ justify-content: center;
 
 
 
+/* Piano CSS Carlos*/
+
+* { box-sizing:border-box; }
+
+ul {
+    height:18.875em; width:34em;
+  margin:5em auto; padding:3em 0 0 3em; position:relative; 
+  border:1px solid #160801; border-radius:1em; 
+  background:(linear, right bottom, left top, (0%,rgba(0,0,0,0.3)), (100%,rgba(0,0,0,0))), url('https://f.cl.ly/items/2q1f3t0C3R1b0g081w3n/vwood.png')}
+li { margin:0; padding:0; list-style:none; position:relative; float:left; }
+}
+
+ul .white {
+    height:16em; width:4em; z-index:1;
+    border-left:1px solid #bbb;
+    border-bottom:1px solid #bbb;
+    border-radius:0 0 5px 5px;
+    background: linear-gradient(top, #eee 0%,#fff 100%);
+    text-align: center;
+    
+}
+
+ul .white:active {
+    border-top:1px solid #777;
+    border-left:1px solid #999;
+    border-bottom:1px solid #999;
+    background: linear-gradient(top, #fff 0%,#e9e9e9 100%);
+}
+
+.black {
+    height:8em; width:2em; margin:0 0 0 -1em; z-index:2;
+    border:1px solid #000;
+    border-radius:0 0 3px 3px;
+    background:linear-gradient(45deg, #222 0%,#555 100%);
+    text-align: center;
+    color: white;
+}
+
+.black:active {
+    background:linear-gradient(left, #444 0%,#222 100%);
+}
+
+.a,.g,.f,.d,.c { margin:0 0 0 -1em;  }
+
+ul li:first-child { border-radius:5px 0 5px 5px; }
+ul li:last-child { border-radius:0 5px 5px 5px; }
+
+
+.white {
+    background-color: white !important;
+}
+.set {
+    background-color: #9E6721;
+}
 
 
 
+
+/*--------------------BATERÍA--------------------*/
+.cabezera{
+	display: flex;
+}
+
+.cabezera a {
+	text-decoration: none;
+	color: white;
+}
+.tituloBateria {
+	padding-left: 30%;
+}
+
+.divbateria{
+	height: 70vh;
+}
+
+.leyenda{
+	height: 22vh;
+}
+.divbateria, .leyenda{
+	background-color: #9E6721;
+	border-radius: 20px;
+	max-width: 1080px;
+	margin: 0 auto;
+}
+
+.divplatillos, .divtom, .snarekick{
+	display: flex;
+	justify-content: center;
+	height: 30%;
+	width: 90%;
+	margin: 0 auto;	
+}
+
+.divplatillos p, .divtom p, .snarekick p{ 
+	padding-top: 30%;
+	text-align: center;
+}
+.divplatillos{
+	padding-top: 2%;
+}
+
+
+.divtom {
+	
+}
+
+.tom {
+	background-image: url('images/tompng.png');
+	min-width: 200px;
+	background-repeat: no-repeat;
+}
+
+.snarekick{
+	width: 55%;
+	margin: 0 auto;
+
+}
+
+
+.platillos {
+	min-width: 200px;
+	background-image: url('images/hihatpng.png');
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+.snare{
+	background-image: url('images/snarepng.png');
+	width: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+.kick{
+	background-image: url('images/kickpng.png');
+	width: 50%;
+	background-repeat: no-repeat;
+	background-position: center;
+	color: #fff;
+	
+}
+
+.tituloLeyenda{
+	text-align: center;
+}
+
+.leyenda{
+	width: 1080px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+}
 
 /*paola-marimba*/
 .pagMarimba{
@@ -144,4 +398,3 @@ align-items: center;
 	background-color: #eed09d;
 	border: 10px outset #9E6721;
 }
-
