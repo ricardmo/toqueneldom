@@ -171,10 +171,10 @@ text-decoration: none;
 color: white;
 }
 
-.set {
+ul {
     height:18.875em; width:34em;
   margin:5em auto; padding:3em 0 0 3em; position:relative; 
-  border:1px solid #160801; border-radius:1em;
+  border:1px solid #160801; border-radius:1em; 
   background:(linear, right bottom, left top, (0%,rgba(0,0,0,0.3)), (100%,rgba(0,0,0,0))), url('https://f.cl.ly/items/2q1f3t0C3R1b0g081w3n/vwood.png')}
 li { margin:0; padding:0; list-style:none; position:relative; float:left; }
 
