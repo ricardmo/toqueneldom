@@ -1,36 +1,10 @@
-const context = new AudioContext();
+let teclaspiano = ['a' , 'w' , 'd' , 'r' , 'f' , 't' , 'g' , 'h' , 'u' , 'j' , 'i' , 'k' ,];
+  for(let index = 0 ; index < teclaspiano.length ; index++ ) {
 
-function playSound(audio) {
-  let sound = new Audio(audio);
-  sound.play();
-}
-
-function jsNota(note) {
-  playSound(note.dataset.note);
-}
-
-document.addEventListener('keypress', (e) => {
-
-  if(e.key === 'a'){
-
-
-    nota1.play()
+    document.addEventListener('keypress', (e) => {
+      if(e.key === teclaspiano[index]){
+        console.log(e.key)
+      }
+      })
+      
   }
-    
-})
-
-
-document.addEventListener("keydown", function(event) {
-  let note = document.querySelector(`[data-key="${event.keyCode}"]`);       //NO FUNCIONA AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//
-  if (note) {
-    jsNota(note);
-  }
-});
-
-const keys = document.querySelectorAll('.set li');
-
-keys.forEach(function(key) {        
-  key.addEventListener('click', function() {
-    jsNota(this);
-  });
-});
