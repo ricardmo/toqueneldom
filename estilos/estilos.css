@@ -268,7 +268,7 @@ ul .white:active {
 
 
 .tom {
-	background-image: url('/toqueneldom/images/tompng.png');
+	background-image: url('/images/tompng.png');
 	min-width: 200px;
 	background-repeat: no-repeat;
 }
@@ -282,21 +282,21 @@ ul .white:active {
 
 .platillos {
 	min-width: 200px;
-	background-image: url('/toqueneldom/images/hihatpng.png');
+	background-image: url('/images/hihatpng.png');
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 
 .snare{
-	background-image: url('/toqueneldom/images/snarepng.png');
+	background-image: url('/images/snarepng.png');
 	width: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .kick{
-	background-image: url('/toqueneldom/images/kickpng.png');
+	background-image: url('/images/kickpng.png');
 	width: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
