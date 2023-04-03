@@ -1,0 +1,114 @@
+/*
+
+let note1 = document.getElementById('note1')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 'a'){
+    note1.play()
+  }  
+})
+
+
+let note2 = document.getElementById('note2')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 'w'){
+    note2.play()
+  }  
+})
+
+let note3 = document.getElementById('note3')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 'd'){
+    note3.play()
+  }  
+})
+
+
+let note4 = document.getElementById('note4')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 'r'){
+    note4.play()
+  }  
+})
+
+
+let note5 = document.getElementById('note5')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 'f'){
+    note5.play()
+  }  
+})
+
+
+let note6 = document.getElementById('note6')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 't'){
+    note6.play()
+  }  
+})
+
+
+let note7 = document.getElementById('note7')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 'g'){
+    note7.play()
+  }  
+})
+
+
+let note8 = document.getElementById('note8')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 'h'){
+    note8.play()
+  }  
+})
+
+
+let note9 = document.getElementById('note9')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 'u'){
+    note9.play()
+  }  
+})
+
+
+let note10 = document.getElementById('note10')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 'j'){
+    note10.play()
+  }  
+})
+
+
+let note11 = document.getElementById('note11')
+document.addEventListener('keypress', (e) => {
+  if(e.key === 'i'){
+    note11.play()
+  }  
+})
+
+
+let note12 = document.getElementById('note12')
+document.addEventListener('keypress', (e) => {
+  console.log(e)
+  if(e.key === 'k'){
+    note12.play()
+  }  
+})
+
+let tecla1 = document.getElementById('tecla1')
+tecla1.addEventListener('click', () => {
+{
+  console.log(note1)
+    note1.play()
+
+  }  
+})
+
+let tecla2 = document.getElementById('tecla2')
+tecla2.addEventListener('click', () => {
+{
+  console.log(note2)
+    note2.play()
+
+  }  
+}*/
