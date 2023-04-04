@@ -21,7 +21,7 @@ margin-left: 20%;
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 15vh;
+  height: 12vh;
   background-color: white;
 }
 
@@ -46,6 +46,94 @@ body{
 	margin-inline-start: 0.5rem;
 	margin-inline-end: 0.5rem;
 }
+
+nav{
+position: relative;
+	width: 100%;
+}
+.caja-img{
+	display: flex;
+	justify-content: center;
+}
+
+.decortation-caja{
+display: flex;
+flex-direction: row;
+position: relative;
+justify-content: center;
+align-items: center;
+align-content: center;
+}
+
+.decoration-1{
+	width: 15rem;
+	height: 15rem;
+	background-color: #4CAF50;
+	position: absolute;
+	border-radius: 50%;
+	margin-right: 90%;
+	margin-top: -100rem;
+}
+.decoration-7{
+	width: 30rem;
+	height: 30rem;
+	background-color: #4CAF50;
+	position: absolute;
+	border-radius: 50%;
+	margin-right: 99%;
+	margin-top: -211.5rem;
+}
+
+.caja-2{
+display: flex;
+flex-direction: column;
+position: relative;
+}
+
+.decoration-3{
+	width: 12rem;
+	height: 12rem;
+	background-color: #4CAF50;
+	border-radius: 50%;
+	justify-content: center;
+	margin-left: 110rem;
+	margin-top: 25rem;
+}
+
+.decoration-2{
+	width: 17rem;
+	height: 17rem;
+	background-color: #4CAF50;
+	margin-left: 103rem;
+	border-radius: 50%;
+}
+
+.decoration-4{
+	width: 10rem;
+	height: 10rem;
+	background-color: #4CAF50;
+	margin-top: -20rem;
+	margin-left: 100rem;
+	border-radius: 50%;
+}
+.decoration-5{
+	width: 6rem;
+	height: 6rem;
+	background-color: #4CAF50;
+	margin-left: 102rem;
+	margin-bottom: 90rem;
+	border-radius: 50%;
+	margin-top: 10rem;
+}
+.decoration-6{
+	width: 6rem;
+	height: 6rem;
+	background-color: #4CAF50;
+	
+	border-radius: 50%;
+	margin-top: 10rem;
+}
+
 
 .instrumentos-caja{
 	margin-bottom: 5rem;
@@ -115,6 +203,7 @@ margin-top: 7vh;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+margin-top: -120rem;
 }
 
 .instrumentos-caja{
@@ -141,7 +230,7 @@ height: 20vh;
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
-	margin-top: 5vh;
+	margin-top: 15vh;
 }
 
 .redes-sociales{
@@ -173,9 +262,6 @@ height: 20vh;
 
 * { box-sizing:border-box; }
 
-<<<<<<< HEAD:ESTILOS.CSS
-ul {
-=======
 .tituloPiano{
 	color: rgb(0, 0, 0);
 	font-size: 50px;
@@ -184,7 +270,6 @@ ul {
 	justify-content: center;
 }
 .set {
->>>>>>> 149a6ffe1cd6528c3df65d2e0fde97e633237b2a:estilos/estilos.css
     height:18.875em; width:34em;
   margin:5em auto; padding:3em 0 0 3em; position:relative; 
   border:1px solid #160801; border-radius:1em; 
