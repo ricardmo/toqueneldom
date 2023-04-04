@@ -3,6 +3,7 @@
 	padding: 0;
     font-family: sans-serif;
 }
+
 .atras{
 	background-color: #160801;
 width: 7%;
@@ -11,12 +12,8 @@ display: flex;
 justify-content: center;
 align-items: center;
 margin-left: 20%;
-}
-.atras a{
-text-decoration: none;
-color: white;
-}
 
+}
 
 .desplegable{
   justify-content: center;
@@ -29,9 +26,10 @@ color: white;
 }
 
 body{
-	background-color: #914226;
+	background-color: #444;
 	
 }
+
 .btn-escuela{
 	padding: 10px 20px;
 	background-color: #000000;
@@ -43,19 +41,21 @@ body{
 	margin-inline-end: 1.5rem;
 	cursor: pointer;
 }
+
 .desplegable-content a{
 	margin-inline-start: 0.5rem;
 	margin-inline-end: 0.5rem;
 }
+
 .instrumentos-caja{
 	margin-bottom: 5rem;
 }
-
 
 .caja-titulo{
 	display: flex;
 	justify-content: center;
 }
+
 .titulo{
 display: flex;
 width: 90%;
@@ -78,11 +78,13 @@ text-align: center;
 	flex-direction: row;
 	align-items: center;
 }
+
 .desplegable-content a{
 	text-decoration: none;
 	color: #000000;
 	font-size: 18px;
 }
+
 .titulo h1{
 	font-size: 50px;
 }
@@ -106,9 +108,8 @@ text-align: center;
 .texto-titulo{
 font-size: 75px;
 margin-top: 7vh;
-
-
 }
+
 .padre-instrumentos{
 	flex-direction:row ;
 	display: flex;
@@ -172,7 +173,18 @@ height: 20vh;
 
 * { box-sizing:border-box; }
 
+<<<<<<< HEAD:ESTILOS.CSS
 ul {
+=======
+.tituloPiano{
+	color: rgb(0, 0, 0);
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.set {
+>>>>>>> 149a6ffe1cd6528c3df65d2e0fde97e633237b2a:estilos/estilos.css
     height:18.875em; width:34em;
   margin:5em auto; padding:3em 0 0 3em; position:relative; 
   border:1px solid #160801; border-radius:1em; 
@@ -232,7 +244,11 @@ ul .white:active {
 	color: white;
 }
 .tituloBateria {
-	padding-left: 30%;
+	color: rgb(0, 0, 0);
+	font-size: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
 }
 
 .divbateria{
@@ -243,7 +259,7 @@ ul .white:active {
 	height: 22vh;
 }
 .divbateria, .leyenda{
-	background-color: #9E6721;
+	background-color: #222;
 	border-radius: 20px;
 	max-width: 1080px;
 	margin: 0 auto;
@@ -268,7 +284,7 @@ ul .white:active {
 
 
 .tom {
-	background-image: url('images/tompng.png');
+	background-image: url('/images/tompng.png');
 	min-width: 200px;
 	background-repeat: no-repeat;
 }
@@ -282,21 +298,21 @@ ul .white:active {
 
 .platillos {
 	min-width: 200px;
-	background-image: url('images/hihatpng.png');
+	background-image: url('/images/hihatpng.png');
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 
 .snare{
-	background-image: url('images/snarepng.png');
+	background-image: url('/images/snarepng.png');
 	width: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .kick{
-	background-image: url('images/kickpng.png');
+	background-image: url('/images/kickpng.png');
 	width: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -317,11 +333,9 @@ ul .white:active {
 
 
 /*marimba*/
-.pagMarimba{
-	background-color: #9E6721;
-}
+
 .tituloMarimba{
-	color: black;
+	color: rgb(0, 0, 0);
 	font-size: 50px;
 	display: flex;
 	align-items: center;
@@ -335,7 +349,15 @@ ul .white:active {
 	margin-right: 10%;
 
 }
-
+.redondasMarimba{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 80%;
+	border-color: #4CAF50;
+	width: 6%;
+	height: 10px;
+}
 .tecla1{
 	width: 5%;
 	height: 20vh;
@@ -382,30 +404,6 @@ ul .white:active {
 .tecla8{
 	width: 5%;
 	height: 55vh;
-	background-color: #eed09d;
-	border: 5px outset #db8a50;
-}
-.tecla9{
-	width: 5%;
-	height: 60vh;
-	background-color: #eed09d;
-	border: 5px outset #db8a50;
-}
-.tecla10{
-	width: 5%;
-	height: 65vh;
-	background-color: #eed09d;
-	border: 5px outset #db8a50;
-}
-.tecla11{
-	width: 5%;
-	height: 70vh;
-	background-color: #eed09d;
-	border: 5px outset #db8a50;
-}
-.tecla12{
-	width: 5%;
-	height: 75vh;
 	background-color: #eed09d;
 	border: 5px outset #db8a50;
 }
