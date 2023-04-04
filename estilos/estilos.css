@@ -248,15 +248,52 @@ ul .white:active {
 }
 
 .divbateria{
-	height: 70vh;
+	height: 80vh;
+	background-image: url('/images/bateria.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	border-radius: 40px;
 }
+
+.crash {
+	background-color: red;
+}
+.ride {
+	background-color: blue;
+}
+.hat {
+	background-color: yellow;
+}
+.hatClosed {
+	background-color: purple;
+}
+.hatOpen {
+	background-color: pink;
+}
+.tom3 {
+	background-color: violet;
+}
+.tom1 {
+	background-color: crimson;
+}
+.tom2 {
+	background-color: brown;
+}
+
+.snare {
+	background-color: white;
+}
+.kick {
+	background-color: black;
+}
+
 
 .leyenda{
 	height: 22vh;
 }
 .divbateria, .leyenda{
 	background-color: #222;
-	border-radius: 20px;
+	bordaeyyer-radius: 20px;
 	max-width: 1080px;
 	margin: 0 auto;
 }
@@ -280,8 +317,9 @@ ul .white:active {
 
 
 .tom {
-	background-image: url('/images/tompng.png');
+	/*background-image: url('/images/tompng.png');*/
 	min-width: 200px;
+	color: #4CAF50;
 	background-repeat: no-repeat;
 }
 
@@ -294,25 +332,28 @@ ul .white:active {
 
 .platillos {
 	min-width: 200px;
-	background-image: url('/images/hihatpng.png');
+	height: 100%;
+	/*background-image: url('/images/hihatpng.png');*/
+	color: #4CAF50;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 
 .snare{
-	background-image: url('/images/snarepng.png');
+	/*background-image: url('/images/snarepng.png');*/
 	width: 50%;
+	color: #4CAF50 ;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 .kick{
-	background-image: url('/images/kickpng.png');
+	/*background-image: url('/images/kickpng.png');*/
 	width: 50%;
 	background-repeat: no-repeat;
 	background-position: center;
-	color: #fff;
+	color: #4CAF50;
 	
 }
 
@@ -326,6 +367,11 @@ ul .white:active {
 	display: flex;
 	justify-content: center;
 }
+
+
+
+
+
 
 
 /*marimba*/
