@@ -28,7 +28,17 @@ margin-left: 20%;
 body{
 	background-color: #444;
 	
+	
 }
+.caja-img{
+	background-image: url(/photo-1445375011782-2384686778a0.avif);
+	background-repeat: no-repeat;
+	background-position: center center;
+	background-size: cover;
+	height: 1800px;
+	
+}
+
 
 .btn-escuela{
 	padding: 10px 20px;
@@ -51,10 +61,7 @@ nav{
 position: relative;
 	width: 100%;
 }
-.caja-img{
-	display: flex;
-	justify-content: center;
-}
+ 
 
 .decortation-caja{
 display: flex;
@@ -88,6 +95,7 @@ align-content: center;
 display: flex;
 flex-direction: column;
 position: relative;
+width: 100%;
 }
 
 .decoration-3{
@@ -96,15 +104,14 @@ position: relative;
 	background-color: #4CAF50;
 	border-radius: 50%;
 	justify-content: center;
-	margin-left: 110rem;
-	margin-top: 25rem;
+	margin-top: 5rem;
 }
 
 .decoration-2{
 	width: 17rem;
 	height: 17rem;
 	background-color: #4CAF50;
-	margin-left: 103rem;
+	margin-left: 90%;
 	border-radius: 50%;
 }
 
@@ -112,18 +119,18 @@ position: relative;
 	width: 10rem;
 	height: 10rem;
 	background-color: #4CAF50;
-	margin-top: -20rem;
-	margin-left: 100rem;
+	margin-top: -22rem;
+	margin-left: 5rem;
 	border-radius: 50%;
 }
 .decoration-5{
 	width: 6rem;
 	height: 6rem;
 	background-color: #4CAF50;
-	margin-left: 102rem;
-	margin-bottom: 90rem;
+	margin-left: 6rem;
+	margin-bottom: 92rem;
 	border-radius: 50%;
-	margin-top: 10rem;
+	margin-top: 13rem;
 }
 .decoration-6{
 	width: 6rem;
