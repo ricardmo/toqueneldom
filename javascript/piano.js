@@ -45,3 +45,19 @@ Pianokeyboard();
 
 //--------------------------------------vvv CLICK PIANO vvv------------------------------------------------------------------------
 
+function ClickPiano() {
+  let notasMusicales = ['note1', 'note2', 'note3', 'note4', 'note5', 'note6', 'note7', 'note8', 'note9', 'note10', 'note11', 'note12'];
+
+  for (let index = 0; index < notasMusicales.length; index++) {
+    let notasclick = document.getElementById(notasMusicales[index]);
+    let rutaAudio = rutasAudio[index];
+    
+    notasclick.addEventListener('click', () => {
+      let audioPiano = document.createElement('audio');
+      audioPiano.setAttribute('src', rutaAudio);
+      audioPiano.play();
+    });
+  }
+}
+
+ClickPiano();
