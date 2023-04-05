@@ -1,13 +1,15 @@
+//teclado//
 let teclasmarimba = ['a' , 's' , 'd' , 'f' , 'g' , 'h' , 'j' , 'k' ,];
-const notasmarimba = ['/xilofono/nota-do.wav' , 
-                    '/xilofono/nota-re.wav' , 
-                    '/xilofono/nota-mi.wav' , 
-                    '/xilofono/nota-fa.wav' , 
-                    '/xilofono/nota-sol.wav' , 
-                    '/xilofono/nota-la.wav' ,
-                    '/xilofono/nota-si.wav' , 
-                    '/xilofono/nota-do2.wav' ,
-]
+const notasmarimba = ['/sounds/xilofono/nota-do.wav' , 
+                    '/sounds/xilofono/nota-re.wav' , 
+                    '/sounds/xilofono/nota-mi.wav' , 
+                    '/sounds/xilofono/nota-fa.wav' , 
+                    '/sounds/xilofono/nota-sol.wav' , 
+                    '/sounds/xilofono/nota-la.wav' ,
+                    '/sounds/xilofono/nota-si.wav' , 
+                    '/sounds/xilofono/nota-do2.wav' ,
+];
+
 //function tocarTeclado (){
     for(let index = 0 ; index < teclasmarimba.length ; index++ ) {
     const tecla = teclasmarimba[index];
@@ -24,3 +26,24 @@ const notasmarimba = ['/xilofono/nota-do.wav' ,
 }
 })
 }
+//click//
+/*
+function clickMarimba (){
+    let notasMusicales = ['not1','not2','not3','not4','not5','not6','not7','not8',];
+    let audioMarimba = document.createElement('audio');
+    
+    for (let index = 0; index < notasMusicales.length ; index++ ){
+        let nota = document.getElementById(notasMusicales[index])
+        nota.addEventListener('click', () => {
+        audioMarimba.setAttribute('src', rutasAudio[index])
+        audioMarimba.play();
+})
+}
+}
+clickMarimba(); */
+
+
+
+
+
+
