@@ -15,6 +15,12 @@ margin-left: 20%;
 
 }
 
+.atras a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
 .desplegable{
   justify-content: center;
   align-items: center;
@@ -275,6 +281,11 @@ ul .white:active {
 	margin:8% 20% 0 14%;
 }
 
+.crash:active{
+	background: #000;
+	border-radius: 50%;
+}
+
 .hat {
 	/*background-color: yellow;*/
 	margin-top: 6%;
@@ -284,6 +295,10 @@ ul .white:active {
 	margin-bottom: 20%;
 }
 
+.hat:active{
+	background: #000;
+	border-radius: 50%;
+}
 .divbateria2{
 	margin-top: 1%;
 	height: 18%;
@@ -301,15 +316,28 @@ ul .white:active {
 	width: 12%;
 	opacity: 50%;
 }
+
+.ride:active{
+	background: #000;
+	border-radius: 50%;
+}
 .hatClosed {
 	/*background-color: purple;*/
 	opacity: 50%;
 	height: 30%;
 }
+.hatClosed:active{
+	background: #000;
+	border-radius: 50%;
+}
 .hatOpen {
 	/*background-color: pink;*/
 	opacity: 50%;
 	height: 30%;
+}
+.hatOpen:active{
+	background: #000;
+	border-radius: 50%;
 }
 
 .tom1 {
@@ -318,12 +346,20 @@ ul .white:active {
 	margin-right: 2%;
 	opacity: 50%;
 }
+
+.tom1:active{
+	background: #000;
+	border-radius: 50%;
+}
 .tom2 {
 	/*background-color: brown;*/
 	width: 24%;
 	opacity: 50%;
 }
-
+.tom2:active{
+	background: #000;
+	border-radius: 50%;
+}
 .divbateria3{
 	height: 50%;
 }
@@ -336,7 +372,10 @@ ul .white:active {
 
 	height: 45%;
 }
-
+.tom3:active{
+	background: #000;
+	border-radius: 50%;
+}
 .divbateria31 {
 	width: 28%;
 }
@@ -345,6 +384,10 @@ ul .white:active {
 	width: 50%;
 	height: 18%;
 	margin-left: 50%;
+},
+.snare:active{
+	background: #000;
+	border-radius: 50%;
 }
 .kick {
 	/*background-color: black;*/
@@ -352,7 +395,10 @@ ul .white:active {
 	width: 96%;
 	height: 70%;
 }
-
+.kick:active{
+	background: #000;
+	border-radius: 50%;
+}
 
 .tituloLeyenda{
 	text-align: center;
