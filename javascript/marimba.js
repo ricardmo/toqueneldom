@@ -27,20 +27,20 @@ const notasmarimba = ['/sounds/xilofono/nota-do.wav' ,
 })
 }
 //click//
-/*
+
 function clickMarimba (){
     let notasMusicales = ['not1','not2','not3','not4','not5','not6','not7','not8',];
-    let audioMarimba = document.createElement('audio');
     
     for (let index = 0; index < notasMusicales.length ; index++ ){
         let nota = document.getElementById(notasMusicales[index])
+        let audioMarimba = document.createElement('audio');
+        audioMarimba.setAttribute('src', notasmarimba[index])
         nota.addEventListener('click', () => {
-        audioMarimba.setAttribute('src', rutasAudio[index])
         audioMarimba.play();
 })
 }
 }
-clickMarimba(); */
+clickMarimba(); 
 
 
 
