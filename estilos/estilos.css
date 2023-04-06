@@ -343,29 +343,29 @@ ul .white:active {
 	align-items: center;
 	justify-content: center;
 	margin-right: 10%;
+}
 
-}
-.redondasMarimba{
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	border-radius: 80%;
-	border-color: #4CAF50;
-	width: 6%;
-	height: 10px;
-}
+
+
+
 .tecla1{
 	width: 5%;
 	height: 20vh;
 	background-color: #eed09d;
 	border: 5px outset #db8a50;
 }
+.tecla1:active{
+	transform: scale(0.9);
+}
+
 .tecla2{
 	width: 5%;
 	height: 25vh;
 	background-color: #eed09d;
 	border: 5px outset #db8a50;
-	
+}
+.tecla2:active{
+	transform: scale(0.9);
 }
 .tecla3{
 	width: 5%;
@@ -373,11 +373,17 @@ ul .white:active {
 	background-color: #eed09d;
 	border: 5px outset #db8a50;
 }
+.tecla3:active{
+	transform: scale(0.9);
+}
 .tecla4{
 	width: 5%;
 	height: 35vh;
 	background-color: #eed09d;
 	border: 5px outset #db8a50;
+}
+.tecla4:active{
+	transform: scale(0.9);
 }
 .tecla5{
 	width: 5%;
@@ -385,11 +391,17 @@ ul .white:active {
 	background-color: #eed09d;
 	border: 5px outset #db8a50;
 }
+.tecla5:active{
+	transform: scale(0.9);
+}
 .tecla6{
 	width: 5%;
 	height: 45vh;
 	background-color: #eed09d;
 	border: 5px outset #db8a50;
+}
+.tecla6:active{
+	transform: scale(0.9);
 }
 .tecla7{
 	width: 5%;
@@ -397,9 +409,16 @@ ul .white:active {
 	background-color: #eed09d;
 	border: 5px outset #db8a50;
 }
+.tecla7:active{
+	transform: scale(0.9);
+}
 .tecla8{
 	width: 5%;
 	height: 55vh;
 	background-color: #eed09d;
 	border: 5px outset #db8a50;
 }
+.tecla8:active{
+	transform: scale(0.9);
+}
+
