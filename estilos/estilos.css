@@ -461,16 +461,9 @@ ul .white:active {
   align-items: center;
   justify-content: center;
   margin-right: 10%;
+  margin-top: 20px;
 }
-.redondasMarimba {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 80%;
-  border-color: #4caf50;
-  width: 6%;
-  height: 10px;
-}
+
 .tecla1 {
   width: 5%;
   height: 20vh;
@@ -542,4 +535,9 @@ ul .white:active {
 }
 .tecla8:active{
 	background-color:  #ffe7be;
+}
+.videoPrueba {
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
 }
