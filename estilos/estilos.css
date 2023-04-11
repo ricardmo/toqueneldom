@@ -34,11 +34,11 @@ body {
   background-color: #444;
 }
 main {
-  background-image: url('/images/');
+  background-image: url('/images/fondo.avif');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 130vh;
+  height: 100vh;
 }
 
 .btn-escuela {
@@ -72,9 +72,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
   height: 20vh;
   position: absolute;
+  background-color: #444;
+  width: 30%;
+  border-radius: 20px;
 }
 
 .instrumentos-caja p {
@@ -82,11 +84,10 @@ main {
   text-align: center;
   display: flex;
   justify-content: center;
+  color: white;
+
 }
 
-.instrumentos-caja {
-  margin-bottom: 5rem;
-}
 
 .caja-titulo {
   display: flex;
@@ -150,23 +151,24 @@ main {
 
 .pieDePagina {
   width: 100%;
-  height: 20vh;
+  height: 15vh;
   background-color: #444;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 15vh;
 }
 
 .redes-sociales {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
 .instrumentos-caja iconify-icon {
   font-size: 3rem;
+
 }
 .redes-sociales iconify-icon {
   font-size: 30px;
@@ -177,6 +179,7 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  color: white;
 }
 
 /* Piano CSS Carlos*/
@@ -184,7 +187,9 @@ main {
 * {
   box-sizing: border-box;
 }
-
+.piano {
+  height: 100vh;
+}
 .tituloPiano {
   color: rgb(0, 0, 0);
   font-size: 50px;
@@ -265,7 +270,19 @@ ul .white:active {
 .set {
   background-color: #9e6721;
 }
+.video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 
+}
+.titulo-video{
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  color: green;
+}
 /*--------------------BATERÍA--------------------*/
 .cabezera {
   display: flex;
