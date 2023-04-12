@@ -4,6 +4,10 @@
   font-family: sans-serif;
 }
 
+.navMain{
+  position:fixed;
+  width: 100%;
+}
 .atras {
   background-color: #160801;
   width: 7%;
@@ -26,7 +30,7 @@
   display: flex;
   flex-direction: row;
   width: 100%;
-  height: 12vh;
+  height: 10vh;
   background-color: white;
 }
 
@@ -165,19 +169,44 @@ main {
   justify-content: center;
 }
 
-.instrumentos-caja iconify-icon {
-  font-size: 3rem;
-}
-.redes-sociales iconify-icon {
-  font-size: 30px;
-}
-
 .caja-footer {
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: center; font-weight: 100px;
   align-items: center;
 }
+
+
+/*------------Nav Instrumentos----------*/
+.botonesInstrumentos {
+  display: flex;
+}
+
+.botonEstilo iconify-icon{
+  font-size: 30px;
+}
+
+.botonEstilo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50px;
+  background-color: #4caf50;
+  border-style: none;
+  margin: 0 10px 0 10px;
+  padding: 0;
+}
+
+.botonEstilo:hover{
+  background-color: #a7d1a9;
+  transition: 0.5s ease;
+}
+
+
+.tituloInstrumentos{
+  color: white;
+  
+}
+
 
 /* Piano CSS Carlos*/
 
@@ -185,6 +214,9 @@ main {
   box-sizing: border-box;
 }
 
+.pagPiano, .pagMarimba, .pagBateria {
+  padding-top:10%;
+}
 .tituloPiano {
   color: rgb(0, 0, 0);
   font-size: 50px;
