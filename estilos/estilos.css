@@ -38,11 +38,11 @@ body {
   background-color: #444;
 }
 main {
-  background-image: url('/images/');
+  background-image: url('/images/fondo.avif');
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
-  height: 130vh;
+  height: 100vh;
 }
 
 .btn-escuela {
@@ -76,9 +76,11 @@ main {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 75%;
   height: 20vh;
   position: absolute;
+  background-color: #444;
+  width: 30%;
+  border-radius: 20px;
 }
 
 .instrumentos-caja p {
@@ -86,11 +88,10 @@ main {
   text-align: center;
   display: flex;
   justify-content: center;
+  color: white;
+
 }
 
-.instrumentos-caja {
-  margin-bottom: 5rem;
-}
 
 .caja-titulo {
   display: flex;
@@ -154,19 +155,27 @@ main {
 
 .pieDePagina {
   width: 100%;
-  height: 20vh;
+  height: 15vh;
   background-color: #444;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  margin-top: 15vh;
 }
 
 .redes-sociales {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  color: white;
+}
+
+.instrumentos-caja iconify-icon {
+  font-size: 3rem;
+
+}
+.redes-sociales iconify-icon {
+  font-size: 30px;
 }
 
 .caja-footer {
@@ -174,6 +183,7 @@ main {
   flex-direction: column;
   justify-content: center; font-weight: 100px;
   align-items: center;
+  color: white;
 }
 
 
@@ -213,9 +223,8 @@ main {
 * {
   box-sizing: border-box;
 }
-
-.pagPiano, .pagMarimba, .pagBateria {
-  padding-top:10%;
+.piano {
+  height: 100vh;
 }
 .tituloPiano {
   color: rgb(0, 0, 0);
@@ -297,7 +306,19 @@ ul .white:active {
 .set {
   background-color: #9e6721;
 }
+.video {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  align-items: center;
 
+}
+.titulo-video{
+  padding-bottom: 5%;
+  display: flex;
+  justify-content: center;
+  color: green;
+}
 /*--------------------BATERÍA--------------------*/
 .cabezera {
   display: flex;
@@ -493,21 +514,17 @@ ul .white:active {
   align-items: center;
   justify-content: center;
   margin-right: 10%;
+  margin-top: 20px;
 }
-.redondasMarimba {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 80%;
-  border-color: #4caf50;
-  width: 6%;
-  height: 10px;
-}
+
 .tecla1 {
   width: 5%;
   height: 20vh;
   background-color: #eed09d;
   border: 5px outset #db8a50;
+}
+.tecla1:active{
+	background-color:  #ffe7be;
 }
 .tecla2 {
   width: 5%;
@@ -515,11 +532,17 @@ ul .white:active {
   background-color: #eed09d;
   border: 5px outset #db8a50;
 }
+.tecla2:active{
+	background-color:  #ffe7be;
+}
 .tecla3 {
   width: 5%;
   height: 30vh;
   background-color: #eed09d;
   border: 5px outset #db8a50;
+}
+.tecla3:active{
+	background-color:  #ffe7be;
 }
 .tecla4 {
   width: 5%;
@@ -527,11 +550,17 @@ ul .white:active {
   background-color: #eed09d;
   border: 5px outset #db8a50;
 }
+.tecla4:active{
+	background-color:  #ffe7be;
+}
 .tecla5 {
   width: 5%;
   height: 40vh;
   background-color: #eed09d;
   border: 5px outset #db8a50;
+}
+.tecla5:active{
+	background-color:  #ffe7be;
 }
 .tecla6 {
   width: 5%;
@@ -539,15 +568,29 @@ ul .white:active {
   background-color: #eed09d;
   border: 5px outset #db8a50;
 }
+.tecla6:active{
+	background-color:  #ffe7be;
+}
 .tecla7 {
   width: 5%;
   height: 50vh;
   background-color: #eed09d;
   border: 5px outset #db8a50;
 }
+.tecla7:active{
+	background-color:  #ffe7be;
+}
 .tecla8 {
   width: 5%;
   height: 55vh;
   background-color: #eed09d;
   border: 5px outset #db8a50;
+}
+.tecla8:active{
+	background-color:  #ffe7be;
+}
+.videoPrueba {
+	display: flex;
+	justify-content: center;
+	margin-top: 90px;
 }
